@@ -1,0 +1,81 @@
+*{
+	padding:0;
+	margin:0;
+}
+.main {
+	background:url(bg1.jpg) no-repeat;
+	background-size:cover;
+	height:100vh;
+}
+.nvbar{
+	position:fixed;
+	height:80px;
+	width:100%;
+	background-color:rgba(0,0,0,0.4);
+	top:0;
+	left:0;
+}
+.logo{
+height:auto;
+width:140px;
+padding:20px 100px;
+}
+.headers{
+	float: right;
+	list-style:none;
+	margin-right:20px;
+}
+.headers li{
+	display:inline-block; 
+	font-size:24px;
+	margin: 0 10px;
+	line-height: 80px;
+}
+.headers li a{
+	padding:6px 10px;
+	text-decoration:none;
+	transition:1s;
+	color:white;
+}
+.headers .atc{
+	background:red;
+}
+.headers li a:hover{
+	background: red;
+border-radius: 2px; }
+.middle{
+	color:white;
+	width:auto;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	font-size:40px;
+	text-align:center;
+	font-weight:bold;
+}
+.btn {
+	position:absolute;
+	width:auto;
+	top:70%;
+	left:50%;
+	transform:translate(-50%,-50%); 
+	
+}
+.btn button{
+	margin:0 30px;
+	height:50px;
+	width:200px;
+	font-size:25px;
+	font-weight:800;
+	color:white;
+	background:red;
+	outline:none;
+	border: 1px solid red ;
+	border-radius:25px;
+	cursor:pointer;
+	transition:3 s;
+}
+.btn button:hover{
+	background:brown;
+}
